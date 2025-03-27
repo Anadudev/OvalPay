@@ -8,7 +8,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="flex py-14">
-      <div className="flex p-4 gap-16 sm:gap-5 flex-wrap mx-auto">
+      <div className="flex p-4 gap-14 flex-wrap mx-auto">
         <div className="space-y-16 max-w-3xl">
           <div className="flex gap-2 items-center justify-center sm:justify-start">
             {heroTables.map((data, index) => (
