@@ -1,0 +1,35 @@
+import { navbarItems } from "@/data/navbar";
+import { Button } from "./button";
+import logo from "../../assets/logo.svg";
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <nav className="flex justify-between items-center p-4 bg-transparent">
+      <a href="/" className="">
+        <img src={logo} alt="" />
+      </a>
+      <div>
+        <ul className="flex gap-8 items-center">
+          {navbarItems.map((item) => (
+            <li>
+              <a className="text-surface font-semibold" href={item.href}>
+                {item.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="">
+        <Button
+          variant={"outline"}
+          className="border border-secondary text-surface hover:text-surface hover:bg-transparent cursor-pointer"
+        >
+          Get App
+        </Button>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
