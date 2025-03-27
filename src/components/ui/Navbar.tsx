@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="flex gap-8 items-center">
           {navbarItems.map((item) => (
             <li>
-              <a className="text-surface font-semibold" href={item.href}>
+              <a className="text-surface text-sm" href={item.href}>
                 {item.text}
               </a>
             </li>

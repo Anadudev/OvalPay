@@ -1,16 +1,40 @@
+import HeroConvertCard from "@/components/HeroConvertCard";
 import Tablet from "@/components/Tablet";
+import { Input } from "@/components/ui/input";
+import { heroTables } from "@/data/homeHero";
+import { ArrowUpRight } from "lucide-react";
 import React from "react";
 
 const HeroSection = () => {
-  return <section>
-	<div className="min-h-screen">
-		<div className="">
-			<Tablet/>
-		</div>
-		<div className=""></div>
-	</div>
-	<div className=""></div>
-  </section>;
+  return (
+    <section className="flex">
+      <div className="flex p-4 gap-16 sm:gap-5 flex-wrap mx-auto">
+        <div className="space-y-12 max-w-3xl">
+          <div className="flex gap-2 items-center justify-center sm:justify-start">
+            {heroTables.map((data, index) => (
+              <Tablet key={index} text={data.text} color={data.color} />
+            ))}
+          </div>
+          <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl text-center sm:text-left sm:text-5xl font-extrabold leading-14">
+            Seamless onramp & Offramp for Effortless Crypto Transactions
+          </h1>
+          <div className="space-y-4">
+            <p className="text-zinc-500">
+              Be the first to access our seamless stablecoin onramp and offramp.
+              Sign up today for waitlist and get early access!
+            </p>
+            <div className="relative">
+              <Input type="email" placeholder="Enter your email" />
+              <ArrowUpRight className="absolute right-2 top-2 bg-secondary rounded-full size-6" />
+            </div>
+          </div>
+        </div>
+        <div className="flex-1 w-full md:w-fit">
+          <HeroConvertCard />
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default HeroSection;
