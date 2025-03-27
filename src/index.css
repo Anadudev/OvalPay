@@ -312,17 +312,10 @@
 }
 
 /* ------------------- custom css -------------------------- */
-.demo {
-  border-image: linear-gradient(to bottom right, #fefefe, #5E1BDD) 1;
-  /* border-radius: 10px; */
-  border-radius: 10px;
-  border-style: solid;
-}
 
 .bg-blur {
   border-radius: 20px;
   background-color: rgba(20, 20, 20, 0.582);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  /* display: none; */
 }

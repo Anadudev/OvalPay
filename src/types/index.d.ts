@@ -13,3 +13,9 @@ declare type WhyChooseUsCardProps = {
   title: string;
   description: string;
 };
+
+declare type ServiceCardProps = {
+  title: string;
+  detail: string;
+  reverse?: boolean;
+};

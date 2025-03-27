@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/ui/Navbar";
 import HeroSection from "./sections/HeroSection";
 import WhyChooseUsSection from "./sections/WhyChooseUsSection";
+import Service from "./sections/Service";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
 
       <WhyChooseUsSection />
+      <Service />
     </main>
   );
 }
