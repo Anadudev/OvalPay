@@ -24,8 +24,8 @@ const HeroSection = () => {
               Sign up today for waitlist and get early access!
             </p>
             <div className="relative">
-              <Input type="email" placeholder="Enter your email" />
-              <ArrowUpRight className="absolute right-2 top-2 bg-secondary rounded-full size-6" />
+              <Input type="email" placeholder="Enter your email" className="h-15" />
+              <ArrowUpRight className="absolute right-5 top-[16%] my-auto bg-secondary rounded-full size-9" />
             </div>
           </div>
         </div>
