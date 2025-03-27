@@ -3,6 +3,7 @@ import Navbar from "./components/ui/Navbar";
 import HeroSection from "./sections/HeroSection";
 import WhyChooseUsSection from "./sections/WhyChooseUsSection";
 import Service from "./sections/Service";
+import HowItWorks from "./sections/HowItWorks";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <WhyChooseUsSection />
       <Service />
+      <HowItWorks />
     </main>
   );
 }

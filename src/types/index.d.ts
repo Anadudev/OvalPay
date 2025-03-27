@@ -19,3 +19,9 @@ declare type ServiceCardProps = {
   detail: string;
   reverse?: boolean;
 };
+
+declare type GuideCardProps = {
+  index: number;
+  title: string;
+  description: string;
+};
