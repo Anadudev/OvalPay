@@ -7,21 +7,21 @@ const HeroConvertCard = () => {
         <div className="flex gap-12 p-2 justify-between">
           <div className="lg:space-y-5">
             <p className="capitalize">Convert from</p>
-            <p className="font-semibold">0.00</p>
+            <p className="font-bold">0.00</p>
           </div>
           <div className="">
-            <span className="uppercase">usd</span>
+            <span className="uppercase font-semibold">usd</span>
           </div>
         </div>
       </div>
       <div className="rounded-[10px] bg-background p-5 rounded-t-none border-t">
         <div className="flex gap-12 p-2 justify-between">
           <div className="lg:space-y-5">
-            <p className="capitalize">Convert from</p>
-            <p className="font-semibold">0.00</p>
+            <p className="capitalize">Convert to</p>
+            <p className="font-bold">0.00</p>
           </div>
           <div className="">
-            <span className="uppercase">usd</span>
+            <span className="uppercase font-semibold">usd</span>
           </div>
         </div>
       </div>

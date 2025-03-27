@@ -7,9 +7,9 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="flex">
+    <section className="flex py-14">
       <div className="flex p-4 gap-16 sm:gap-5 flex-wrap mx-auto">
-        <div className="space-y-12 max-w-3xl">
+        <div className="space-y-16 max-w-3xl">
           <div className="flex gap-2 items-center justify-center sm:justify-start">
             {heroTables.map((data, index) => (
               <Tablet key={index} text={data.text} color={data.color} />
@@ -18,8 +18,8 @@ const HeroSection = () => {
           <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl text-center sm:text-left sm:text-5xl font-extrabold leading-14">
             Seamless onramp & Offramp for Effortless Crypto Transactions
           </h1>
-          <div className="space-y-4">
-            <p className="text-zinc-500">
+          <div className="space-y-5">
+            <p className="text-zinc-500 max-w-xl">
               Be the first to access our seamless stablecoin onramp and offramp.
               Sign up today for waitlist and get early access!
             </p>
