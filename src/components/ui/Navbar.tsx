@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </a>
       <div>
-        <ul className="flex gap-8 items-center">
+        <ul className="sm:flex gap-8 items-center">
           {navbarItems.map((item) => (
             <li>
               <a className="text-surface text-sm" href={item.href}>
