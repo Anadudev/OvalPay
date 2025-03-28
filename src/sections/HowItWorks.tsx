@@ -1,7 +1,6 @@
 import HowItWorksCard from "@/components/HowItWorksCard";
 import SectionTitle from "@/components/SectionTitle";
 import { guides } from "@/data/howItWorks";
-import React from "react";
 
 const HowItWorks = () => {
   return (

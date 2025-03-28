@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroConvertCard = () => {
   return (
     <div className="p-px rounded-[10px] bg-gradient-to-br from-surface to-secondary bg-clip-border w-full lg:min-w-96">

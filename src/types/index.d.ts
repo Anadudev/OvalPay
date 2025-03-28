@@ -25,3 +25,7 @@ declare type GuideCardProps = {
   title: string;
   description: string;
 };
+declare type AppStoreButtonProps = {
+  icon: string;
+  name: string;
+};

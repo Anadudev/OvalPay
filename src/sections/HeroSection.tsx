@@ -3,7 +3,6 @@ import Tablet from "@/components/Tablet";
 import { Input } from "@/components/ui/input";
 import { heroTables } from "@/data/homeHero";
 import { ArrowUpRight } from "lucide-react";
-import React from "react";
 
 const HeroSection = () => {
   return (

@@ -1,7 +1,6 @@
 import { navbarItems } from "@/data/navbar";
 import { Button } from "./button";
 import logo from "../../assets/logo.svg";
-import React from "react";
 
 const Navbar = () => {
   return (
