@@ -9,15 +9,17 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="space-y-28">
+    <>
       <Navbar />
-      <HeroSection />
-      <WhyChooseUsSection />
-      <Service />
-      <HowItWorks />
-      <SupportedCoins />
-      <Footer/>
-    </main>
+      <main className="space-y-28 py-12">
+        <HeroSection />
+        <WhyChooseUsSection />
+        <Service />
+        <HowItWorks />
+        <SupportedCoins />
+      </main>
+      <Footer />
+    </>
   );
 }
 

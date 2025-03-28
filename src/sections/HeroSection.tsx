@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 const HeroSection = () => {
   return (
     <section className="flex py-14">
-      <div className="flex p-4 gap-14 flex-wrap mx-auto">
+      <div className="flex p-4 gap-18 flex-wrap mx-auto">
         <div className="space-y-16 max-w-3xl">
           <div className="flex gap-2 items-center justify-center sm:justify-start">
             {heroTables.map((data, index) => (
@@ -17,7 +17,7 @@ const HeroSection = () => {
           <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl sm:text-5xl font-extrabold leading-14">
             Seamless onramp & Offramp for Effortless Crypto Transactions
           </h1>
-          <div className="space-y-5">
+          <div className="space-y-8">
             <p className="text-zinc-500 max-w-xl">
               Be the first to access our seamless stablecoin onramp and offramp.
               Sign up today for waitlist and get early access!
