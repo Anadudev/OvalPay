@@ -5,6 +5,7 @@ import WhyChooseUsSection from "./sections/WhyChooseUsSection";
 import Service from "./sections/Service";
 import HowItWorks from "./sections/HowItWorks";
 import SupportedCoins from "./sections/SupportedCoins";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <HowItWorks />
       <SupportedCoins />
+      <Footer/>
     </main>
   );
 }
