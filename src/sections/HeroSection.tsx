@@ -14,7 +14,7 @@ const HeroSection = () => {
               <Tablet key={index} text={data.text} color={data.color} />
             ))}
           </div>
-          <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl text-center sm:text-left sm:text-5xl font-extrabold leading-14">
+          <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl sm:text-5xl font-extrabold leading-14">
             Seamless onramp & Offramp for Effortless Crypto Transactions
           </h1>
           <div className="space-y-5">
