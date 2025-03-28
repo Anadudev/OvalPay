@@ -13,7 +13,7 @@ const Footer = () => {
           <p>Phone number:</p>
           <p>Official website:</p>
         </div>
-        <div className="flex justify-between items-center flex-wrap">
+        <div className="flex justify-between items-center flex-wrap gap-4">
           <div className="">
             <p>© 2025 Web3 Global Conference LLC. All rights reserved.</p>
           </div>
