@@ -65,7 +65,7 @@ const SupportedCoins = () => {
               <ArrowUpRight className="absolute right-5 top-[16%] my-auto bg-secondary rounded-full size-9" />
             </div>
           </div>
-          <div className="space-y-4 px-4">
+          <div className="flex flex-col gap-4 items-end px-4">
             <p className="text-2xl font-semibold">App coming soon</p>
             <AppStoreButton
               icon="src/assets/app-store/Google-Play-Icon.svg"
