@@ -19,7 +19,7 @@ const HeroConvertCard = () => {
             <p className="font-bold">0.00</p>
           </div>
           <div className="">
-            <span className="uppercase font-semibold">usd</span>
+            <span className="uppercase font-semibold">ksh</span>
           </div>
         </div>
       </div>
