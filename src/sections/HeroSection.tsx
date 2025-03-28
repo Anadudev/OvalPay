@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="flex py-14">
+    <section className="flex md:py-14">
       <div className="flex p-4 gap-18 flex-wrap mx-auto">
         <div className="space-y-16 max-w-3xl">
           <div className="flex gap-2 items-center justify-center sm:justify-start">
