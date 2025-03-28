@@ -310,12 +310,3 @@
 @utility border-gradient-to-br {
   border-image: linear-gradient(to bottom right, var(--surface), var(--secondary));
 }
-
-/* ------------------- custom css -------------------------- */
-
-.bg-blur {
-  border-radius: 20px;
-  background-color: rgba(20, 20, 20, 0.582);
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
-}
