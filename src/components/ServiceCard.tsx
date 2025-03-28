@@ -1,5 +1,5 @@
 import React from "react";
-import serviceIcon from "../assets/service/service-icon.svg";
+import serviceIcon from "/service/service-icon.svg";
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
   title,

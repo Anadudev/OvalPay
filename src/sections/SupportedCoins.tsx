@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqs, stableCoins } from "@/data/suportedCoins";
+import { faqs, stableCoins } from "@/data/supportedCoins";
 import { Input } from "@/components/ui/input";
 import { ArrowUpRight } from "lucide-react";
 import AppStoreButton from "@/components/AppStoreButton";
@@ -33,7 +33,7 @@ const SupportedCoins = () => {
               Frequently Asked Questions
             </p>
             <img
-              src="src//assets/logo-icon.svg"
+              src="/logo-icon.svg"
               alt=""
               className="absolute sm:-bottom-10 -right-20"
             />
@@ -68,11 +68,11 @@ const SupportedCoins = () => {
           <div className="flex flex-col gap-4 items-end px-4">
             <p className="text-2xl font-semibold">App coming soon</p>
             <AppStoreButton
-              icon="src/assets/app-store/Google-Play-Icon.svg"
+              icon="/app-store/Google-Play-Icon.svg"
               name="Google Play"
             />
             <AppStoreButton
-              icon="src/assets/app-store/Apple-Store-Icon.svg"
+              icon="/app-store/Apple-Store-Icon.svg"
               name="Google Play"
             />
           </div>

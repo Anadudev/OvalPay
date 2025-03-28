@@ -1,6 +1,6 @@
 import SectionTitle from "@/components/SectionTitle";
 import WhyChooseUsCard from "@/components/WhyChooseUsCard";
-import { whyChooseUsData } from "@/data/whuChooseUs";
+import { whyChooseUsData } from "@/data/whyChooseUs";
 
 const WhyChooseUsSection = () => {
   return (

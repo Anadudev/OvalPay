@@ -1,6 +1,6 @@
 import ServiceCard from "@/components/ServiceCard";
 import { serviceDataLeft, serviceDataRight } from "@/data/service";
-import serviceDevice from "../assets/service/service-device.svg";
+import serviceDevice from "/service/service-device.svg";
 // todo: set all section max with to 1440px
 const Service = () => {
   return (
@@ -25,7 +25,7 @@ const Service = () => {
                 <ServiceCard key={index} {...service} />
               ))}
             </div>
-            <div className="hidden sm:flex bg-[url('/src/assets/service/service-device-bg.svg')] items-center justify-center bg-no-repeat bg-contain bg-center">
+            <div className="hidden sm:flex bg-[url('/service/service-device-bg.svg')] items-center justify-center bg-no-repeat bg-contain bg-center">
               <img src={serviceDevice} alt="" />
             </div>
             <div className="grid items-center">

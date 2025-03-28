@@ -1,6 +1,6 @@
-import USDT from "../assets/coins/usdt.svg";
-import USDC from "../assets/coins/usdc.svg";
-import CNGN from "../assets/coins/cngn.svg";
+import USDT from "/coins/usdt.svg";
+import USDC from "/coins/usdc.svg";
+import CNGN from "/coins/cngn.svg";
 
 export const stableCoins = [
   { name: "usdt", icon: USDT },

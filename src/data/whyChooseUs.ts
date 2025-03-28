@@ -1,7 +1,7 @@
-import instantTransactions from "../assets/why-choose-us/instant-transactions.svg";
-import nowFees from "../assets/why-choose-us/low-fees.svg";
-import globalAccess from "../assets/why-choose-us/global-access.svg";
-import securityCompliance from "../assets/why-choose-us/security-compliance.svg";
+import instantTransactions from "/why-choose-us/instant-transactions.svg";
+import nowFees from "/why-choose-us/low-fees.svg";
+import globalAccess from "/why-choose-us/global-access.svg";
+import securityCompliance from "/why-choose-us/security-compliance.svg";
 
 export const whyChooseUsData = [
   {

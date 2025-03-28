@@ -16,9 +16,9 @@ const Footer = () => {
             <p>© 2025 Web3 Global Conference LLC. All rights reserved.</p>
           </div>
           <div className="flex gap-2">
-            <img src="src/assets/socials/x.svg" alt="" />
-            <img src="src/assets/socials/linkedin.svg" alt="" />
-            <img src="src/assets/socials/telegram.svg" alt="" />
+            <img src="/socials/x.svg" alt="" />
+            <img src="/socials/linkedin.svg" alt="" />
+            <img src="/socials/telegram.svg" alt="" />
           </div>
         </div>
       </div>
