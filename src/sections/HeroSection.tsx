@@ -14,7 +14,7 @@ const HeroSection = () => {
               <Tablet key={index} text={data.text} color={data.color} />
             ))}
           </div>
-          <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-4xl sm:text-5xl font-extrabold leading-14">
+          <h1 className="bg-gradient-to-r from-surface to-secondary bg-clip-text text-transparent text-center sm:text-left text-2xl sm:text-5xl font-extrabold leading-14 max-w-[361px] mx-auto sm:mx-0 sm:max-w-full">
             Seamless onramp & Offramp for Effortless Crypto Transactions
           </h1>
           <div className="space-y-8">
@@ -23,8 +23,12 @@ const HeroSection = () => {
               Sign up today for waitlist and get early access!
             </p>
             <div className="relative">
-              <Input type="email" placeholder="Enter your email" className="h-15" />
-              <ArrowUpRight className="absolute right-5 top-[16%] my-auto bg-secondary rounded-full size-9" />
+              <Input
+                type="email"
+                placeholder="Enter your email"
+                className="h-[38px] sm:h-15"
+              />
+              <ArrowUpRight className="absolute right-5 top-[16%] my-auto bg-secondary rounded-full sm:size-9" />
             </div>
           </div>
         </div>
