@@ -60,7 +60,7 @@ const SupportedCoins = () => {
               <Input
                 type="email"
                 placeholder="Enter your email"
-                className="h-15 bg-secondary-foreground"
+                className="h-15 bg-secondary-foreground max-w-[734px]"
               />
               <ArrowUpRight className="absolute right-5 top-[16%] my-auto bg-secondary rounded-full size-9" />
             </div>

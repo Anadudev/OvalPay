@@ -4,7 +4,7 @@ import logo from "/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-transparent">
+    <nav className="flex justify-between items-center p-4 bg-transparent max-w-[1440px] mx-auto">
       <a href="/" className="">
         <img src={logo} alt="" />
       </a>

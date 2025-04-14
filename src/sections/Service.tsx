@@ -20,6 +20,9 @@ const Service = () => {
         </div>
         <div className="">
           <div className="grid sm:grid-cols-3 gap-9 sm:gap-2">
+            <div className="flex sm:hidden bg-[url('/service/service-device-bg.svg')] items-center justify-center bg-no-repeat bg-contain bg-center">
+              <img src={serviceDevice} alt="" />
+            </div>
             <div className="grid gap-9 items-center">
               {serviceDataLeft.map((service, index) => (
                 <ServiceCard key={index} {...service} />

@@ -12,7 +12,8 @@ const HeroConvertCard = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-[10px] bg-background p-5 rounded-t-none border-t">
+      <hr />
+      <div className="rounded-[10px] bg-background p-5 rounded-t-none">
         <div className="flex gap-12 p-2 justify-between">
           <div className="lg:space-y-5">
             <p className="capitalize">Convert to</p>

@@ -19,11 +19,15 @@ const HowItWorks = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="space-y-3">
-              <p className="font-bold text-3xl">Take charge of your payments today!</p>
+              <p className="font-bold text-3xl">
+                Take charge of your payments today!
+              </p>
               <p>Secure, Fast, and Hassle-Free </p>
             </div>
             <div className="w-full sm:w-fit">
-              <div className="bg-secondary px-8 py-4 rounded-2xl sm:w-fit w-full font-semibold text-center text-xl sm:text-nowrap">App Launching Soon</div>
+              <div className="bg-secondary px-8 py-4 rounded-2xl sm:w-fit w-full font-semibold text-center text-xl sm:text-nowrap">
+                App Launching Soon
+              </div>
             </div>
           </div>
         </div>
