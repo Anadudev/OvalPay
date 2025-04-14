@@ -20,7 +20,7 @@ const MobileNav: React.FC<{ className?: string }> = ({ className }) => {
           </li>
         ))}
       </ul>
-      <Button className="bg-secondary w-full">Get App</Button>
+      <Button className="bg-secondary w-full font-bold">Get App</Button>
     </div>
   );
 };
