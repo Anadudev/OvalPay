@@ -9,7 +9,7 @@ import React from "react";
 const MobileNav: React.FC<{ className?: string }> = ({ className }) => {
   return (
     <div
-      className={`${className} bg-accent-foreground z-10 w-full flex flex-col gap-5 items-center absolute top-12 right-[50%] translate-x-[50%] p-4`}
+      className={`${className} bg-accent-foreground z-10 w-full flex flex-col gap-5 items-center absolute top-14 right-[50%] translate-x-[50%] p-4`}
     >
       <ul className={`${className} flex flex-col gap-[14px] items-center`}>
         {navbarItems.map((item) => (
